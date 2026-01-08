@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume | Ishan Ranasingh</title>
+    <meta name="description" content="Resume of Ishan Ranasingh - Software Engineer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html" class="brand">Ishan</a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="resume.html" class="active-link">Resume</a>
+            <a href="opensource.html">Open Source</a>
+            <a href="projects.html">Projects</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <header class="page-header" style="margin-bottom: 3rem; text-align: center;">
+            <h1 class="name" style="font-size: 2.5rem;">Resume</h1>
+            <a href="#" class="download-btn" style="color: var(--accent); text-decoration: none; font-weight: 500;"><i class="fas fa-download"></i> Download PDF</a>
+        </header>
+
+        <section class="section">
+            <h2 class="section-title">💼 Experience</h2>
+            <div class="content">
+                <div class="job-item">
+                    <h3>Software Developer 2</h3>
+                    <p class="company">GE Healthcare (General Electric)</p>
+                    <p class="date">May 2024 -- Present</p>
+                    <ul class="job-details">
+                        <li><strong>Built Critical Healthcare Service:</strong> Developed the 'Print Clinical Service' from scratch to handle medical image printing. Achieved <strong>95% test coverage</strong>, ensuring high reliability for critical patient data.</li>
+                        <li><strong>Automated & Secured Deployments:</strong> Automated core deployment processes using Jenkins, cutting manual release time by <strong>40%</strong>. Enhanced platform security by implementing strict access controls in the Linux environment.</li>
+                        <li><strong>Optimized System performance:</strong> Identified and fixed a critical memory leak in image processing that was causing crashes. Improved system startup time and throughput for large data import/export tasks.</li>
+                        <li><strong>Enhanced Reliability:</strong> Designed comprehensive automated test suites using JMeter and Cucumber to catch bugs early. Implemented automatic data cleanup features to prevent system clutter and maintain uptime.</li>
+                        <li><strong>Tech Stack:</strong> Java, Spring Boot, OpenAPI, Cucumber, JUnit, Linux, Jenkins</li>
+                    </ul>
+                </div>
+                
+                <div class="job-item">
+                    <h3>Software Developer</h3>
+                    <p class="company">Fynarfin</p>
+                    <p class="date">Dec 2021 -- April 2024</p>
+                    <ul class="job-details">
+                        <li><strong>Architected Payments System:</strong> Designed a robust bill payment system handling complex workflows. Used <strong>Zeebe orchestrator</strong> to ensure 100% visibility and tracking of every payment transaction.</li>
+                        <li><strong>Improved Reliability by 30%:</strong> Reduced recurring bugs by <strong>40%</strong> and boosted system reliability by <strong>30%</strong> by implementing rigorous, automated scenario testing for different account types.</li>
+                        <li><strong>Reduced Cloud Costs by 27%:</strong> Led the migration of Kubernetes infrastructure from US to India regions, significantly reducing monthly cloud operational expenses.</li>
+                        <li><strong>Modernized Data Pipeline:</strong> Upgraded the core data importer from a basic consumer to <strong>Kafka Streams</strong>, resulting in faster and more reliable data processing.</li>
+                        <li><strong>Tech Stack:</strong> Java, Spring Boot, Kafka, Redis, Kubernetes (EKS), Zeebe, Jenkins</li>
+                    </ul>
+                </div>
+
+                <div class="job-item">
+                    <h3>Software Developer Intern</h3>
+                    <p class="company">Fynarfin</p>
+                    <p class="date">Mar 2021 -- Dec 2021</p>
+                    <ul class="job-details">
+                        <li><strong>Improved Data Accuracy:</strong> Built a smart backend engine to automatically find and merge duplicate customer records (by name, bank account, etc.), ensuring data consistency.</li>
+                        <li><strong>Built Payment Infrastructure:</strong> Developed the core backend for a Payment Hub capable of processing thousands of batch transactions for seamless fund transfers.</li>
+                        <li><strong>Visualized Business Insights:</strong> Created interactive real-time dashboards using <strong>Kibana</strong> to help stakeholders track transaction volumes and identify trends.</li>
+                        <li><strong>Streamlined Deployment:</strong> Packaged applications using **Docker** and automated their deployment on Kubernetes with Helm charts, making releases faster and consistent.</li>
+                        <li><strong>Tech Stack:</strong> Python, ELK Stack (Elasticsearch, Kibana), Docker, Kubernetes, Helm</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills">
+            <h2 class="section-title">🛠 Technical Skills</h2>
+            <div class="content">
+                <div style="margin-bottom: 0.8rem;">
+                    <strong style="color: var(--text-primary);">Languages:</strong> 
+                    <span style="color: var(--text-secondary);">Java, Python, C/C++, HTML, CSS, JavaScript, Kotlin, SQL</span>
+                </div>
+                <div style="margin-bottom: 0.8rem;">
+                    <strong style="color: var(--text-primary);">Developer Tools:</strong> 
+                    <span style="color: var(--text-secondary);">Git, Lens, DBeaver, VS Code, PyCharm, IntelliJ, Postman, Jenkins</span>
+                </div>
+                <div>
+                    <strong style="color: var(--text-primary);">Technologies & Frameworks:</strong> 
+                    <span style="color: var(--text-secondary);">Spring, Spring Boot, Docker, Kubernetes, Elasticsearch, Linux, Django, Django REST Framework, FastAPI</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section education">
+            <h2 class="section-title">🎓 Education</h2>
+            <div class="content">
+                <div class="job-item">
+                    <h3>B.Tech (Computer Science and Engineering)</h3>
+                    <p class="company">College of Engineering and Technology</p>
+                    <p class="date">2018 - 2022 | Odisha, India</p>
+                    <p class="date" style="margin-top: 0.2rem; color: var(--text-primary);"><strong>GPA:</strong> 9.08 / 10.00</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="social-links">
+                <a href="https://github.com/truthfool" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ishan-ranasingh/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:ishanranasingh@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="tel:+918249799324"><i class="fas fa-phone"></i></a>
+            </div>
+            <p>&copy; 2026 Ishan Ranasingh</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
